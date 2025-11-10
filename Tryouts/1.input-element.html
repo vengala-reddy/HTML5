@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Element Tryout</title>
+</head>
+
+<body>
+    <form action="">
+        Name: <input type="text" name="name" placeholder="Enter your name e.g. Bruce Wayne">
+        <br>
+        Age: <input type="number" name="age" placeholder="Enter age above 18">
+        <br>
+        Date of Birth:<input type="date" name="dob"><br>
+        E-mail:
+        <input type="email" name="email" placeholder="Enter you business Id"><br>
+        What is your favorite color: <input type="color" name="favcolor"><br>
+        <div>
+            <label for="superhero">Your Favourite Super hero</label>
+            <select id="superhero" name="superhero">
+                <option value="">Select</option>
+                <option value="goku">Goku</option>
+                <option value="Vegeta">Vegeta</option>
+                <option value="batman">Batman</option>
+                <option value="thor">Thor</option>
+                <option value="Wolverine">Wolverine</option>
+            </select>
+        </div>
+        <br>
+        Rate your course:
+        <input type="range" name="points" min="0" max="10" /><br>
+        <button type="submit">Submit</button> &nbsp;
+    </form>
+</body>
+
+</html>
