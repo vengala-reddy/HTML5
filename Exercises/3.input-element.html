@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Input Elements</title>
+</head>
+
+<body>
+    <p>
+        Application for Drivers licence
+    </p>
+    <br>
+    <form method="post" name="DLregForm">       
+        <div>
+            <label for="username"> Name : </label>
+            <input type="text" autofocus pattern="[A-Za-z]"
+             required id="username" name="username">
+        </div> <br>
+        <div>
+            <label for="age">Age (Yrs) :</label>
+            <input type="number" name="age" id="age" min="18" max="60" required>
+        </div><br>
+        <div>
+            <label for="address">Address :</label>
+            <textarea rows=2 cols=20 maxlength="30" id="address" required></textarea>
+        </div><br>
+        <div>
+            <label for="contact">contact  :</label>
+            <input type="text" name="contact" id="contact" min="10" max="10">
+        </div><br>
+        <div>
+            <input type="checkbox" name="licenseCheck" id="licenseCheck">
+            I own an expired driver's license.<br>
+        </div>        
+        <input type="submit">
+    </form>
+</body>
+
+</html>
